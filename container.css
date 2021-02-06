@@ -1,0 +1,18 @@
+.container{ width: 700px;
+			margin: 80px auto;}
+.container h2{ font-size: 35px;
+			   font-family: oswald;
+			    }
+
+.container p{ font-family: helvetica;
+              font-size: 20px;
+              color: #9fdfcd; }
+
+@media (max-width: 540px) 
+{ .title{ width: 300px } }
+
+@media (max-width: 720px) 
+{ .title{ width: 500px } }
+
+@media (max-width: 960px)
+{.title {width: 700px;}}
